@@ -8,11 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "host":"react-scripts start --host=0.0.0.0"
+    "host": "react-scripts start --host=0.0.0.0"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.3.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
